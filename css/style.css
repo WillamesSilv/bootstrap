@@ -1,0 +1,33 @@
+
+.navbar{
+    background-color: #ebebeb;
+    padding: 20px 0;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.collapse li{
+    transition: all 0.2s ; 
+}
+
+.collapse li:hover{   
+    border-bottom: 2px solid #7c00a5;
+}
+
+.quem-somos{
+    background-color: #d1fffbee;
+    padding: 50px 0;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social a{
+    padding: 0 12px;
+}
+
