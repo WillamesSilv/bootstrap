@@ -1,7 +1,7 @@
 
 .navbar{
     background-color: #ebebeb;
-    padding: 20px 0;
+    padding: 20px 0px;
 }
 
 .navbar-collapse{
@@ -9,25 +9,44 @@
 }
 
 .collapse li{
-    transition: all 0.2s ; 
+    transition: all 0.2s ease; 
 }
 
 .collapse li:hover{   
-    border-bottom: 2px solid #7c00a5;
+    border-bottom: 1px solid #7c00a5;
+    
 }
 
 .quem-somos{
     background-color: #d1fffbee;
-    padding: 50px 0;
+    padding: 50px 0px;
 }
 
-footer .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.produtos{
+    background-color: #f3d1ff;
+    padding: 50px 0px;
 }
 
-.social a{
-    padding: 0 12px;
+.produtos h3 {
+    margin-bottom: 40px;
 }
 
+.produtos img{
+    border-radius: 50%;
+}
+
+.social a:hover{
+   animation-name: bottomDiv;
+   animation-duration: 0.5s;
+   animation-fill-mode: forwards;
+   animation-timing-function: linear;
+}
+
+@keyframes bottomDiv {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
